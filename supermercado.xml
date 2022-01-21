@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<supermercado id= "1">
+    <nombre> Lidl </nombre>
+    <direccion> C/ Moncada, 3 </direccion>
+    <geolocalizacion>
+        <norte> 43°15'08.2 </norte>
+        <sur></sur>
+        <este></este>
+        <oeste> 2°56'38.6 </oeste>
+    </geolocalizacion>    
+            
+            <seccion tipo = "fruteria">
+            <id> 1.1 </id>
+            <numpersonas> 4 </numpersonas>
+            <costespersonal> 6000 </costespersonal>
+            <productos>
+                
+                <nombre tipo = "platano">
+                        <id>1</id>
+                        <descripcion> platano de Canarias </descripcion>
+                        <origen> España </origen>
+                        <oferta> true </oferta> 
+                        <unidades> 200 </unidades>
+                        <perecedero> true </perecedero>
+                        <precioEurosKg> 1.19 </precioEurosKg>
+                        <fechaEntrada> 25/03/2021 4:00 a.m. </fechaEntrada>
+                        <periodoVigencia> 29/03/2021 </periodoVigencia>
+                        <adquirido> true </adquirido>
+                </nombre>
+                <nombre tipo =" manzana">
+                        <id> 2 </id>
+                        <descripcion> manzana roja Envy </descripcion>
+                        <origen> España </origen>
+                        <oferta> false </oferta> 
+                        <unidades> 200 </unidades>
+                        <perecedero> true </perecedero>
+                        <precioEurosKg> 1.39 </precioEurosKg>
+                        <fechaEntrada> 25/03/2021 4:00 a.m. </fechaEntrada>
+                        <periodoVigencia> null </periodoVigencia>
+                        <adquirido> false </adquirido>
+                </nombre>
+                
+            </productos>
+            </seccion>    
+            <seccion tipo = "pescaderia">
+            <id> 1.2 </id>
+            <numpersonas> 5 </numpersonas>
+            <costespersonal> 7000 </costespersonal>
+            <productos>
+                
+                <nombre tipo = "salmón">
+                        <descripcion> rodajas de salmón </descripcion>
+                        <id> 12 </id>
+                        <origen> Noruega </origen>
+                        <oferta> true </oferta> 
+                        <unidades> 20 </unidades>
+                        <perecedero> true </perecedero>
+                        <precioEurosKg> 4.79 </precioEurosKg>
+                        <fechaEntrada> 25/03/2021 4:00 a.m. </fechaEntrada>
+                        <periodoVigencia> 27/03/2021 </periodoVigencia>
+                        <adquirido> true </adquirido>
+                </nombre>
+                <nombre tipo = "bacalao">
+                        <descripcion> bacalao del Pais Vasco </descripcion>
+                        <id> 15 </id>
+                        <origen> España </origen>
+                        <oferta> true </oferta> 
+                        <unidades> 20 </unidades>
+                        <perecedero> true </perecedero>
+                        <precioEurosKg> 5.65 </precioEurosKg>
+                        <fechaEntrada> 25/03/2021 4:00 a.m. </fechaEntrada>
+                        <periodoVigencia> 28/03/2021 </periodoVigencia>
+                        <adquirido> true </adquirido>
+                </nombre>
+
+            </productos>
+            </seccion>
+</supermercado >

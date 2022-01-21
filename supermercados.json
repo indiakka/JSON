@@ -1,0 +1,255 @@
+{
+    "supermercados": [
+        {
+            "ID ": 1,
+            "nombre":"Lidl",
+            "dirección":"C/ Moncada, 3",
+            "geolocalización":"43°15'08.2 N", "2°56'38.6 W" : [
+                {
+                    "seccion": "fruteria",
+                    "id":1.1,
+                    "numpersonas": 4,
+                    "costespersonal": 6000,
+                    "productos": [
+                        {
+                            
+                            "nombre": "platano",
+                            "descripcion": "platano de Canarias",
+                            "id":1,
+                            "origen": "España",
+                            "oferta": true,
+                            "unidades":200,
+                            "perecedero": true,
+                            "precioEuroskg": 1.19,
+                            "productoHabitual":true,
+                            "fechaEntrada": "25/03/2021 4:00 a.m.",
+                            "periodoVigencia":"29/03/2021",
+                            "adquirido": true
+                        },
+                        {
+                            
+                            "nombre": "manzana",
+                            "descripcion": "manzana roja Envy",
+                            "id":2,
+                            "origen": "España", 
+                            "oferta": false,
+                            "unidades":200,
+                            "perecedero": true,
+                            "precioEuroskg": 1.39,
+                            "productoHabitual":true,
+                            "fechaEntrada": "25/03/2021 8:00 a.m.",
+                            "periodoVigencia":null,
+                            "adquirido": false
+                        }
+                    ]
+                },
+                {
+                    "seccion": "pescaderia",
+                    "id":1.2,
+                    "numpersonas": 5,
+                    "costespersonal": 7000,
+                    "productos": [
+                        {
+                            
+                            "nombre": "salmón",
+                            "descripcion": "rodajas de salmón",
+                            "id":12,
+                            "origen": "Noruega",
+                            "oferta": true,
+                            "unidades":20,
+                            "perecedero": true,
+                            "precioEuroskg": 4.79,
+                            "productoHabitual": false,
+                            "fechaEntrada": "25/03/2021 4:00 a.m.",
+                            "periodoVigencia":"27/03/2021",
+                            "adquirido": true
+                        },
+                        {
+                            
+                            "nombre": "bacalao",
+                            "descripcion": "bacalao del Pais Vasco",
+                            "id":15,
+                            "origen": "España",
+                            "oferta": true,
+                            "unidades":20,
+                            "perecedero": true,
+                            "precioEuroskg": 5.65,
+                            "productoHabitual":true,
+                            "fechaEntrada": "25/03/2021 6:00 a.m.",
+                            "periodoVigencia":"28/03/2021",
+                            "adquirido": true
+                        }
+                    ]
+                }
+            ]
+
+        },
+        {
+            "ID ": 2,
+            "nombre":"Mercadona",
+            "dirección":"C/ Urkixo Zumarkalea, 85",
+            "geolocalización":"43°15'44.8 N", "2°56'50.6 W" :[
+                {
+                    "seccion": "carnicería",
+                    "id":1.3,
+                    "numpersonas": 3,
+                    "costespersonal": 4000,
+                    "productos": [
+                        {
+                            
+                            "nombre": "pollo",
+                            "descripcion": "traseros de pollo",
+                            "id":20,
+                            "origen": "España",
+                            "oferta": true,
+                            "unidades":50,
+                            "perecedero": true,
+                            "precioEuroskg": 1.95,
+                            "productoHabitual":true,
+                            "fechaEntrada": "25/03/2021 6:00 a.m.",
+                            "periodoVigencia":"28/03/2021",
+                            "adquirido": false
+                        },
+                        {
+                            
+                            "nombre": "solomillo",
+                            "descripcion": "solomillo de cerdo",
+                            "id":29,
+                            "origen": "España",
+                            "oferta": false,
+                            "unidades":40,
+                            "perecedero": true,
+                            "precioEuroskg": 3.49,
+                            "productoHabitual":true,
+                            "fechaEntrada": "24/03/2021 8:00 a.m.",
+                            "periodoVigencia":null,
+                            "adquirido": false
+                        }
+                    ]
+                },
+                {
+                    "seccion": "panadería",
+                    "id":1.2,
+                    "numpersonas": 2,
+                    "costespersonal": 3000,
+                    "productos": [
+                        {
+                            
+                            "nombre": "caña",
+                            "descripcion": "cañas surtidas",
+                            "id":18,
+                            "origen": "España",
+                            "oferta": false,
+                            "unidades":30,
+                            "perecedero": true,
+                            "precioUnidad": 2.20,
+                            "productoHabitual":true,
+                            "fechaEntrada": "26/03/2021 5:00 a.m.",
+                            "periodoVigencia":null,
+                            "adquirido":false
+                        },
+                        {
+                            
+                            "nombre": "pan",
+                            "descripcion": "pan integral 100%",
+                            "id":17,
+                            "origen": "España",
+                            "perecedero": true,
+                            "oferta": false,
+                            "unidades":50,
+                            "precioUnidad": 1.60,
+                            "productoHabitual":true,
+                            "fechaEntrada": "25/03/2021 4:00 a.m.",
+                            "periodoVigencia":null,
+                            "adquirido": true
+                        }
+                    ]
+                }
+            ]
+        },
+
+        {
+            "ID": 3,
+            "nombre":"Eroski",
+            "dirección":"C/Alameda de Recalde, 55",
+            "geolocalización":"43°15'32.0 N", "2°56'12.0 W" :[
+                {
+                    "seccion": "fruteria",
+                    "id":1.6,
+                    "numpersonas": 4,
+                    "costespersonal": 6000,
+                    "productos": [
+                        {
+                            
+                            "nombre": "naranja",
+                            "descripcion": "naranja para zumo de Valencia",
+                            "id":31,
+                            "origen": "España",
+                            "oferta": true,
+                            "unidades":100,
+                            "perecedero": true,
+                            "precioEurosKg": 0.89,
+                            "productoHabitual":true,
+                            "fechaEntrada": "24/03/2021 8:00 a.m.",
+                            "periodoVigencia":"26/03/2021",
+                            "adquirido": false
+                        },
+                        {
+                            
+                            "nombre": "melón",
+                            "descripcion": "melón sapo entero",
+                            "id":38,
+                            "origen": "España", 
+                            "oferta": false,
+                            "unidades":200,
+                            "perecedero": true,
+                            "precioEurosKg": 1.39,
+                            "productoHabitual": false,
+                            "fechaEntrada": "25/03/2021 9:00 a.m.",
+                            "periodoVigencia":null,
+                            "adquirido": false
+                        }
+                    ]
+                },
+                {
+                    "seccion": "carnicería",
+                    "id":1.1,
+                    "numpersonas": 4,
+                    "costespersonal": 6000,
+                    "productos": [
+                        {
+                           
+                            "nombre": "bacon",
+                            "descripcion": "bacon bajo en sal",
+                            "id":62,
+                            "origen": "España",
+                            "oferta": false,
+                            "unidades":30,
+                            "perecedero": true,
+                            "precioEurosKg": 8.49,
+                            "productoHabitual":true,
+                            "fechaEntrada": "26/03/2021 6:00 a.m.",
+                            "periodoVigencia":null,
+                            "adquirido": true
+                        },
+                        {
+                            
+                            "nombre": "lacon",
+                            "descripcion": "lacon en porciones",
+                            "id":70,
+                            "origen": "España",
+                            "oferta": false,
+                            "unidades":30,
+                            "perecedero": true,
+                            "precioEurosKg": 7.49,
+                            "productoHabitual": false,
+                            "fechaEntrada": "26/03/2021 7:00 a.m.",
+                            "periodoVigencia":null,
+                            "adquirido": false
+                       }
+                    ]
+                }          
+            ]
+        }
+    ]
+}
